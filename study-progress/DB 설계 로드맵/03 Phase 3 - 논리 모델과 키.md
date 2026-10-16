@@ -2,7 +2,7 @@
 
 - 목표: Phase 2의 ERD를 관계 스키마(테이블 목록)로 변환하고, 테이블마다 기본키를 근거 있게 고른다.
 - 분량: 약 8시간
-- 마지막 학습일: 2026-10-12 (키의 종류 도입 · 첫 확인 문항 미응답)
+- 마지막 학습일: 2026-10-15 (복합 기본키·외래키 복습 · Phase 전체 미완료)
 
 ## 이 단계가 끝나면 할 수 있어야 하는 것
 
@@ -25,7 +25,7 @@
 
 메인: Relational Database Design, Module 2
 
-- [ ] [02 What are Keys.md](../../courses/Databases%20and%20SQL/Relational%20Database%20Design/Module%202%20-%20Relational%20Models/02%20What%20are%20Keys.md) — **후보키·기본키·대체키·복합키.** 후보키가 여럿일 때 무엇을 기본키로 올릴지가 설계 판단이다
+- [x] [02 What are Keys.md](../../courses/Databases%20and%20SQL/Relational%20Database%20Design/Module%202%20-%20Relational%20Models/02%20What%20are%20Keys.md) — **후보키·기본키·대체키·복합키.** 후보키가 여럿일 때 무엇을 기본키로 올릴지가 설계 판단이다 (2026-10-13: 핵심 구별 및 오류 교정, 관련 복습큐 등록)
 
 메인: Database Design - A Modern Approach, Module 3
 
@@ -37,12 +37,12 @@
 
 - [ ] 01 Relational Database Design Part 1.md
 - [ ] 02 Relational Database Design Part 2.md
-- [ ] [03 Keys.md](../../courses/Databases%20and%20SQL/PostgreSQL%20for%20Everybody/Course%201%20-%20Database%20Design/Module%203%20-%20One-To-Many%20Data%20Models/03%20Keys.md) — **강사가 대리키를 기본으로 쓰는 이유를 명시적으로 말한다.** 자연키 진영의 반론과 함께 판단한다
+- [x] [03 Keys.md](../../courses/Databases%20and%20SQL/PostgreSQL%20for%20Everybody/Course%201%20-%20Database%20Design/Module%203%20-%20One-To-Many%20Data%20Models/03%20Keys.md) — **강사가 대리키를 기본으로 쓰는 이유를 명시적으로 말한다.** 자연키 진영의 반론과 함께 판단한다 (2026-10-13: 이메일 변경과 참조 안정성을 근거로 대리키 선택)
 
 MySQL 관점으로 한 번 더: Meta 01 Introduction to Databases Module 4
 
 - [ ] 05 Primary key.md
-- [ ] [06 Foreign key.md](../../courses/Databases%20and%20SQL/Meta%20Database%20Engineer/01%20Introduction%20to%20Databases/Module%204%20-%20Database%20design/06%20Foreign%20key.md)
+- [x] [06 Foreign key.md](../../courses/Databases%20and%20SQL/Meta%20Database%20Engineer/01%20Introduction%20to%20Databases/Module%204%20-%20Database%20design/06%20Foreign%20key.md) (2026-10-13: 역할·참조 대상 존재·삭제 거부·부모 단독 등록 확인, 복습큐 등록)
 
 ## 3-C. ERD를 관계 스키마로 변환한다
 

@@ -2,7 +2,7 @@
 
 - 목표: Phase 3의 관계 스키마에서 함수 종속을 모두 찾아내고, 3NF와 BCNF를 만족하는지 검증해 분해한다.
 - 분량: 약 10시간
-- 마지막 학습일: (미학습)
+- 마지막 학습일: 2026-10-15 (정규화·분해·비정규화 설명 및 이해 확인 · Phase 전체 미완료)
 
 ## 이 단계가 끝나면 할 수 있어야 하는 것
 
@@ -21,8 +21,8 @@
 
 메인: Relational Database Design (Illinois Tech), Module 2
 
-- [ ] [01 Functional Dependency (FD).md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 2 - Functional Dependency/01 Functional Dependency (FD).md>) — **`X → Y`는 "X가 같으면 Y도 반드시 같다"는 뜻이다.** 데이터를 보고 정하는 게 아니라 업무 규칙에서 나온다
-- [ ] [02 Attribute Closure and Candidate Keys.md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 2 - Functional Dependency/02 Attribute Closure and Candidate Keys.md>) — **후보키를 눈대중이 아니라 계산으로 구한다.** Phase 3에서 감으로 고른 기본키를 여기서 검산한다
+- [x] [01 Functional Dependency (FD).md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 2 - Functional Dependency/01 Functional Dependency (FD).md>) — **`X → Y`는 "X가 같으면 Y도 반드시 같다"는 뜻이다.** 데이터를 보고 정하는 게 아니라 업무 규칙에서 나온다 (2026-10-13: 함수 종속·완전/부분/이행 종속 핵심 확인, 부분 종속 복습큐 등록)
+- [ ] [02 Attribute Closure and Candidate Keys.md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 2 - Functional Dependency/02 Attribute Closure and Candidate Keys.md>) — **후보키를 눈대중이 아니라 계산으로 구한다.** Phase 3에서 감으로 고른 기본키를 여기서 검산한다 (2026-10-14: 폐포 계산과 후보키 최소성 확인. Armstrong 공리 전체는 아직 확인하지 않아 강의 전체 완료 체크는 보류)
 - [ ] 03 Canonical (Minimal) Cover of FDs.md — 종속 집합에서 군더더기를 걷어낸다. 3NF 분해의 입력이 된다
 
 함께 보기: Relational Database Design Module 3 — 같은 개념을 덜 형식적으로, 예제 중심으로
@@ -41,7 +41,7 @@
 
 함께 보기: 같은 내용의 세 가지 버전. **하나만 골라 보고 나머지는 헷갈릴 때 참고한다.**
 
-- [ ] [04 Normal Forms and Normalization Process.md](../../courses/Databases%20and%20SQL/Relational%20Database%20Design/Module%203%20-%20Normalization/04%20Normal%20Forms%20and%20Normalization%20Process.md) — 한 강에 1NF~3NF를 압축
+- [x] [04 Normal Forms and Normalization Process.md](../../courses/Databases%20and%20SQL/Relational%20Database%20Design/Module%203%20-%20Normalization/04%20Normal%20Forms%20and%20Normalization%20Process.md) — 한 강에 1NF~3NF를 압축 (2026-10-15: 1NF 위반 구별, 교정 후 새 사례 2NF 분해, 3NF 분해 및 부분/이행 종속 구별 확인. SQL 재현 실습은 미완료)
 - [ ] 01 Database Normalization.md — 형식적 정의 중심
 - [ ] 04 Database Normalization.md — 가장 짧다. 실무 감각 위주
 
@@ -57,7 +57,7 @@ MySQL 맥락에서 단계별로 천천히 가고 싶으면: Meta 01 Module 4. �
 
 메인: Relational Database Design (Illinois Tech), Module 3
 
-- [ ] [02 Boyce-Codd Normal Form.md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 3 - Database Normalization/02 Boyce-Codd Normal Form.md>) — **3NF는 만족하는데 BCNF는 위반하는 경우가 언제 생기는가.** 후보키가 여럿이고 겹칠 때다
+- [ ] [02 Boyce-Codd Normal Form.md](<../../courses/Databases and SQL/Relational Database Design (Illinois Tech)/Module 3 - Database Normalization/02 Boyce-Codd Normal Form.md>) — **3NF는 만족하는데 BCNF는 위반하는 경우가 언제 생기는가.** 후보키가 여럿이고 겹칠 때다 (2026-10-15: 폐포를 이용한 위반/비위반 판정 교정 후 확인, 독립 목록의 4NF 분리 확인. BCNF 분해·3NF와의 차이 독립 적용은 추가 확인 필요)
 - [ ] 03 Database Design Example (Normalization + ERD).md — ERD와 정규화를 같이 놓고 푸는 예제
 
 메인: Database Design - A Modern Approach, Module 4

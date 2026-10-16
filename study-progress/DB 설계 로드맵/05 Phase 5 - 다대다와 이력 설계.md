@@ -2,7 +2,7 @@
 
 - 목표: 이 저장소의 가장 어려운 관계 — 강의 하나가 여러 로드맵에 속하고, 소유와 참조가 다르고, 같은 강의를 서로 다른 날 체크하는 구조 — 를 테이블로 정확히 표현한다.
 - 분량: 약 8시간
-- 마지막 학습일: (미학습)
+- 마지막 학습일: 2026-10-15 (핵심 설명 및 이해 확인 · 재복습·미응답·SQL 실습이 남아 Phase 전체 미완료)
 
 ## 왜 이 Phase가 따로 있는가
 
@@ -28,7 +28,7 @@
 
 메인: PostgreSQL for Everybody, Course 1 Module 4
 
-- [ ] [01 Many-to-Many Relationships.md](../../courses/Databases%20and%20SQL/PostgreSQL%20for%20Everybody/Course%201%20-%20Database%20Design/Module%204%20-%20Many-To-Many%20Data/01%20Many-to-Many%20Relationships.md) — **연결 테이블(junction table)의 기본형.** 두 외래키를 묶은 복합 기본키로 갈지, 별도 대리키를 둘지가 첫 판단이다
+- [ ] [01 Many-to-Many Relationships.md](../../courses/Databases%20and%20SQL/PostgreSQL%20for%20Everybody/Course%201%20-%20Database%20Design/Module%204%20-%20Many-To-Many%20Data/01%20Many-to-Many%20Relationships.md) — **연결 테이블(junction table)의 기본형.** 두 외래키를 묶은 복합 기본키로 갈지, 별도 대리키를 둘지가 첫 판단이다 (2026-10-15: 복합 기본키·역할 속성 위치를 교정. 독립 재확인 전까지 완료 체크 보류)
 - [ ] [02 Demonstration - Database Design and Many to Many.md](../../courses/Databases%20and%20SQL/PostgreSQL%20for%20Everybody/Course%201%20-%20Database%20Design/Module%204%20-%20Many-To-Many%20Data/02%20Demonstration%20-%20Database%20Design%20and%20Many.md) — **실제로 만들어 보는 데모.** 강좌-수강생 예제인데, 우리 경우의 강의-로드맵과 구조가 같다
 - [ ] 03 Up Next - Beyond CRUD and JOIN.md — 짧다
 
@@ -58,7 +58,7 @@
 > ⚠️ **이 5강의 진행 기록 원본은 **디지털 트윈 로드맵 Phase 4**다.** 저쪽은 센서·자산 이력 파이프라인 관점, 이쪽은 스키마 설계 관점으로 본다. **한쪽에서 이미 봤다면 양쪽에 학습일을 적는다.**
 
 - [ ] 01 Why SCD2 Matters in Enterprise Data Warehouses.md — **덮어쓰면(SCD Type 1) 무엇을 잃는가**
-- [ ] [02 Understanding SCD2 Core Components and Business Logic.md](../../courses/Data%20Engineering/Open%20Source%20Data%20Engineering/Course%201%20-%20Building%20Automated/Module%207%20-%20SCD2%20Historical/02%20Understanding%20SCD2%20Core%20Components.md) — **유효 시작·종료 시각과 현재 플래그.** 이력 테이블의 표준형이다
+- [ ] [02 Understanding SCD2 Core Components and Business Logic.md](../../courses/Data%20Engineering/Open%20Source%20Data%20Engineering/Course%201%20-%20Building%20Automated/Module%207%20-%20SCD2%20Historical/02%20Understanding%20SCD2%20Core%20Components.md) — **유효 시작·종료 시각과 현재 플래그.** 이력 테이블의 표준형이다 (2026-10-15: 과거 값 보존·특정 날짜 조회 확인. 기간 겹침·이력 필요성은 설명 후 교정, 종료/현재 표시의 전체 변경 순서는 재확인 필요)
 - [ ] [03 Building Your First SCD2 Table Structure in SQL.md](../../courses/Data%20Engineering/Open%20Source%20Data%20Engineering/Course%201%20-%20Building%20Automated/Module%207%20-%20SCD2%20Historical/03%20Building%20Your%20First%20SCD2%20Table.md) — **직접 만든다.** 이 Phase의 실습 본체
 - [ ] 01 dbt Snapshots for Automated SCD2 Change Detection.md — 변경 감지를 도구가 대신하는 경우. **dbt를 쓸지는 이 로드맵의 관심사가 아니다** — 무엇을 자동화할 수 있는지만 본다
 - [ ] 02 Building Complete dbt SCD2 Model with Validity Periods.md — 완성형
