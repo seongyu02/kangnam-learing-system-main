@@ -2,7 +2,7 @@
 
 ## 중간고사 범위
 
-**AI 네이티브 회사 로드맵과 DB 설계 로드맵의 Phase 1~5 전체(Phase 5 포함)**가 범위다. 아래는 우선 학습할 핵심 자료 **46개**를 고른 체크리스트다. 전체 범위는 각 Phase의 원문에서 확인한다. 강의 파일은 이 체크리스트와 공통 체크리스트에 있는 것만 저장소에 남아 있다.
+**2026-10-22 사용자 제공 최신 시험 안내:** 시험 범위는 **이 체크리스트의 AI 회사 25개·DB 21개와 공통 체크리스트 20개, 총 66개 강의만**이다. Phase 1~5(Phase 5 포함)에 걸친 해당 체크리스트 자료를 공부하며, **Phase 문서 전체를 볼 필요는 없다.** 네트워크 서비스 로드맵은 01팀 범위가 아니다. 기존의 Phase 전체라는 안내는 이 최신 안내로 대체한다.
 
 두 팀 공통 범위인 **3~6주차 수업 내용**([공통 체크리스트](../%EA%B3%B5%ED%86%B5%203~6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/README.md))도 함께 본다.
 
@@ -16,8 +16,8 @@
 
 [Phase 전체 자료 보기](../../study-progress/AI%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%ED%9A%8C%EC%82%AC%20%EB%A1%9C%EB%93%9C%EB%A7%B5/01%20Phase%201%20-%20%ED%9A%8C%EC%82%AC%EB%A5%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9C%BC%EB%A1%9C%20%EB%B3%B8%EB%8B%A4.md)
 
-- [ ] [02 Theory - Task, Start & End Event, Pools & Lanes](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%202%20-%20The%20Shoe%20Shop/02%20Theory%20-%20Task,%20Start%20&%20End%20Event,%20Pools%20&%20Lanes.md) — BPMN의 태스크·이벤트·풀·레인으로 업무와 담당자를 구분한다
-- [ ] [02 Process Scoping](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%207%20-%20Best%20Practices/02%20Process%20Scoping.md) — 자동화할 업무의 시작과 끝을 정한다
+- [x] [02 Theory - Task, Start & End Event, Pools & Lanes](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%202%20-%20The%20Shoe%20Shop/02%20Theory%20-%20Task,%20Start%20&%20End%20Event,%20Pools%20&%20Lanes.md) — BPMN의 태스크·이벤트·풀·레인으로 업무와 담당자를 구분한다 (2026-10-22 핵심 확인; 당일 오답은 복습큐에 기록)
+- [x] [02 Process Scoping](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%207%20-%20Best%20Practices/02%20Process%20Scoping.md) — 자동화할 업무의 시작과 끝을 정한다 (2026-10-22 사례 적용 확인)
 - [ ] [05 How to choose an AI project](../../courses/AI%20for%20Everyone/week%2002%20Building%20AI%20Projects/05%20How%20to%20choose%20an%20AI%20project.md) — 자동화 후보를 사업 가치와 실행 가능성으로 고른다
 - [ ] [02 Tasks, not jobs](../../courses/Generative%20AI%20for%20Everyone/week%2003%20Generative%20AI%20in%20Business/Generative%20AI%20and%20business/02%20Tasks,%20not%20jobs.md) — 직무를 실행 가능한 태스크로 나눈다
 - [ ] [04 Selecting Insights for a Dashboard](../../courses/Data%20Analytics/Course%205%20-%20Data%20Storytelling/module%2003%20Dashboards%20and%20stories/04%20Selecting%20Insights%20for%20a%20Dashboard.md) — 성과를 확인할 계기판 지표를 고른다

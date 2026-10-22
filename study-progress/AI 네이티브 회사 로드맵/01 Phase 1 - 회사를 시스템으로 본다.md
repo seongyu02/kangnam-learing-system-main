@@ -2,7 +2,9 @@
 
 - 목표: 대상 회사의 업무 흐름을 그림으로 그리고, 어떤 업무를 에이전트에 넘길지 근거 있는 우선순위표를 만든다.
 - 분량: 약 12시간
-- 마지막 학습일: (미학습)
+- 마지막 학습일: 2026-10-22
+
+> 현재 중간고사 학습은 `midterm/네트워크 01 중간고사/README.md`의 체크리스트 5강만 대상으로 한다(10/22 사용자 제공 최신 안내). 2강 핵심 확인, 3번째 프로젝트 선정 강의의 첫 질문은 미응답이다. 이 문서 전체의 실습·산출물을 완료한 것은 아니다. 이어갈 문항은 `내학습/진행상황.md` 마지막 절에 있다.
 
 ## 이 단계가 끝나면 할 수 있어야 하는 것
 
@@ -38,7 +40,7 @@
 메인: The Ultimate BPMN Course. 전 14모듈을 다 볼 필요는 없다. **아래 절반만 본다** — 남은 모듈(9~13)은 보험·은행 수준의 복잡한 이벤트 표기라 사내 업무 자동화에는 과하다.
 
 - [ ] `2026-09-03` 02 Why BPMN.md — 왜 말이나 글이 아니라 표준 표기로 그려야 하는가.
-- [ ] `2026-09-03` [02 Theory - Task, Start & End Event, Pools & Lanes.md](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%202%20-%20The%20Shoe%20Shop/02%20Theory%20-%20Task,%20Start%20&%20End%20Event,%20Pools%20&%20Lanes.md) — **가장 중요한 강의.** 풀(pool)과 레인(lane)이 나중에 그대로 에이전트 역할 경계가 된다.
+- [x] `2026-10-22` [02 Theory - Task, Start & End Event, Pools & Lanes.md](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%202%20-%20The%20Shoe%20Shop/02%20Theory%20-%20Task,%20Start%20&%20End%20Event,%20Pools%20&%20Lanes.md) — **가장 중요한 강의.** 풀(pool)과 레인(lane)이 나중에 그대로 에이전트 역할 경계가 된다. 핵심 구별 확인; 당일 교정 항목은 복습큐에 기록.
 - [ ] `2026-09-03` 03 Practical - Process of Manual Tasks in the Retail Industry (Part 1).md — 수작업 업무를 그리는 실제 예.
 - [ ] `2026-09-04` 04 Practical - Process of Manual Tasks in the Retail Industry (Part 2).md
 - [ ] 06 Tool Demo.md — 그릴 도구. **건너뜀 (2026-09-08): 도구 조작 실습이라 사용자 요청으로 생략. 완료 처리하지 않음.**
@@ -48,7 +50,7 @@
 - [ ] `2026-09-08` 04 Theory - Message Event.md — 프로세스 간 메시지. Phase 5의 에이전트 간 통신에 대응한다.
 - [ ] `2026-09-08` 02 The Deadlock.md — **교착.** 멀티 에이전트에서 실제로 터지는 실패 유형이라 지금 봐 둔다.
 - [ ] 03 The Multimerge.md
-- [ ] [02 Process Scoping.md](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%207%20-%20Best%20Practices/02%20Process%20Scoping.md) — **어디서 끊을 것인가.** 자동화 범위를 정할 때 그대로 쓰는 기준.
+- [x] `2026-10-22` [02 Process Scoping.md](../../courses/Business%20Process%20and%20Analysis/The%20Ultimate%20BPMN%20Course/Module%207%20-%20Best%20Practices/02%20Process%20Scoping.md) — **어디서 끊을 것인가.** 독자·목적, 필수 작업 보존, 기술 사용자 예외, 자동화의 종료 범위 사례로 핵심 확인.
 - [ ] 03 Process Collaboration.md
 - [ ] 04 Consistent Process Flow.md
 - [ ] 05 Naming Conventions.md — 이름 규칙. 에이전트·도구 이름을 지을 때 다시 쓴다.
@@ -64,7 +66,7 @@
 
 메인: AI for Everyone (Andrew Ng). 이 로드맵에서 **"넣지 않을 것"을 정하는 근거**를 여기서 얻는다.
 
-- [ ] [05 How to choose an AI project.md](../../courses/AI%20for%20Everyone/week%2002%20Building%20AI%20Projects/05%20How%20to%20choose%20an%20AI%20project.md) — **프로젝트 선정 기준.** 자동화 후보 우선순위표의 뼈대.
+- [ ] [05 How to choose an AI project.md](../../courses/AI%20for%20Everyone/week%2002%20Building%20AI%20Projects/05%20How%20to%20choose%20an%20AI%20project.md) — **프로젝트 선정 기준.** 자동화 후보 우선순위표의 뼈대. 2026-10-22 기준 설명 후 A/B 후보 선정 문제 미응답; 다음 대화에서 재개.
 - [ ] 06 Technical and business diligence.md — 기술적으로 가능한가와 사업적으로 가치가 있는가를 나눠 보는 법.
 - [ ] 07 Working with an AI team - Data and acceptance criteria.md — **인수 기준(acceptance criteria)** 을 미리 정하는 습관. Phase 6의 eval이 여기서 시작된다.
 - [ ] 06 What machine learning can and cannot do.md
