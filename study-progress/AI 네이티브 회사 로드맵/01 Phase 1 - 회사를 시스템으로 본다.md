@@ -66,7 +66,7 @@
 
 메인: AI for Everyone (Andrew Ng). 이 로드맵에서 **"넣지 않을 것"을 정하는 근거**를 여기서 얻는다.
 
-- [ ] [05 How to choose an AI project.md](../../courses/AI%20for%20Everyone/week%2002%20Building%20AI%20Projects/05%20How%20to%20choose%20an%20AI%20project.md) — **프로젝트 선정 기준.** 자동화 후보 우선순위표의 뼈대. 2026-10-22 기준 설명 후 A/B 후보 선정 문제 미응답; 다음 대화에서 재개.
+- [ ] [05 How to choose an AI project.md](../../courses/AI%20for%20Everyone/week%2002%20Building%20AI%20Projects/05%20How%20to%20choose%20an%20AI%20project.md) — **프로젝트 선정 기준.** 자동화 후보 우선순위표의 뼈대. 2026-10-23 저장: A/B 선정·현업 협업·작은 데이터·효과 지표의 핵심을 학습함. A2 종합 답변은 보완 후 다른 사례 재시험 필요; 전체 완료 체크는 보류. 최신 재개 지점은 `내학습/진행상황.md` 마지막 절 참조.
 - [ ] 06 Technical and business diligence.md — 기술적으로 가능한가와 사업적으로 가치가 있는가를 나눠 보는 법.
 - [ ] 07 Working with an AI team - Data and acceptance criteria.md — **인수 기준(acceptance criteria)** 을 미리 정하는 습관. Phase 6의 eval이 여기서 시작된다.
 - [ ] 06 What machine learning can and cannot do.md
